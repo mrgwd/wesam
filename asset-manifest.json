@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wesam/static/css/main.7a9a5188.css",
+    "main.js": "/wesam/static/js/main.cbb459de.js",
+    "static/media/about.png": "/wesam/static/media/about.7f0e47ee4e6048b6316e.png",
+    "static/media/background.jpg": "/wesam/static/media/background.2112047a3229fe2db63e.jpg",
+    "static/media/logo.png": "/wesam/static/media/logo.734f1849a72ad003aa52.png",
+    "index.html": "/wesam/index.html",
+    "main.7a9a5188.css.map": "/wesam/static/css/main.7a9a5188.css.map",
+    "main.cbb459de.js.map": "/wesam/static/js/main.cbb459de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a9a5188.css",
+    "static/js/main.cbb459de.js"
+  ]
+}
