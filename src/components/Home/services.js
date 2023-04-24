@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="px-3 sm:px-0 py-12 sm:py-20 bg-gray-200 text-main-color-dark scroll-smooth"
+      className="px-3 sm:px-0 py-12 sm:py-20 bg-gray-200 text-main-color-dark"
     >
       <div className="container mx-auto flex flex-col items-center">
         <div>

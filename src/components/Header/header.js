@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <div
       id="navCon"
-      className="w-full absolute left-1/2 -translate-x-1/2 top-0  scroll-smooth"
+      className="w-full absolute left-1/2 -translate-x-1/2 top-0 "
     >
       <div
         id="nav"

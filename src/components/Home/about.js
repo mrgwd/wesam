@@ -3,7 +3,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="container mx-auto px-3 sm:px-0 py-10 sm:py-16  flex flex-col items-center scroll-smooth"
+      className="container mx-auto px-3 sm:px-0 py-10 sm:py-16  flex flex-col items-center"
     >
       <div>
         <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 text-main-dark font-bold">

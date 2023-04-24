@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <main
       id="home"
-      className="bg-[url(../images/background.jpg)] h-auto md:h-screen w-screen bg-cover bg-center py-8 pb-44 sm:py-12 flex flex-col items-center  scroll-smooth"
+      className="bg-[url(../images/background.jpg)] h-auto md:h-screen w-screen bg-cover bg-center py-8 pb-44 sm:py-12 flex flex-col items-center"
     >
       <div className=" mt-44 text-white">
         <p className="text-xl md:text-2xl sm::text-3xl 2xl:text-4xl mb-3 sm:mb-6">

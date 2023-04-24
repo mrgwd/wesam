@@ -8,7 +8,7 @@ const Specialties = () => {
   return (
     <section
       id="specialties"
-      className="px-3 sm:px-0 py-12 sm:py-20 text-main-color-dark  scroll-smooth"
+      className="px-3 sm:px-0 py-12 sm:py-20 text-main-color-dark"
     >
       <div>
         <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 text-main-dark font-bold">
