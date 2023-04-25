@@ -1,9 +1,9 @@
-import about from "../../assets/images/about.png";
+import about from "../../assets/images/aboutUs.png";
 const About = () => {
   return (
     <section
       id="about"
-      className="container mx-auto px-3 sm:px-0 py-10 sm:py-16  flex flex-col items-center"
+      className="container mx-auto px-3 sm:px-0 py-10 sm:py-16  flex flex-col items-center rounded-b-3xl sm:rounded-b-none"
     >
       <div>
         <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 text-main-dark font-bold">
@@ -20,22 +20,36 @@ const About = () => {
         </p>
       </div>
       <div
-        className="mt-12 md:mt-20 flex flex-col md:flex-row md:justify-between items-center gap-16 md:gap-36 child:text-start"
+        className="mt-12 md:mt-16 flex flex-col md:flex-row md:justify-between items-center gap-10 md:gap-28 lg:gap-36 child:text-start"
         dir="ltr"
       >
-        <img className="w-80 lg:w-96 rounded-2xl" src={about} alt="about us" />
+        <img
+          className="w-80 lg:w-[32rem] rounnded-2xl"
+          src={about}
+          alt="about us"
+        />
         <div dir="rtl">
           <div className="mb-6">
             <h3 className="font-bold text-2xl lg:text-3xl text-main-color-light">
               قـيمنـا
             </h3>
-            <p>
-              ● <span className="text-xl font-semibold">الصدق والامانة</span>{" "}
+            <p className="text-sm sm:text-[15.5px]">
+              ●{" "}
+              <span className="text-lg sm:text-xl font-semibold">
+                الصدق والامانة
+                <br className="sm:hidden" />
+              </span>{" "}
               والحرص الدائم علـى الامتثــال والالــتزام القانوني.
               <br />●{" "}
-              <span className="text-xl font-semibold">إحترام القانون</span>{" "}
+              <span className="text-lg sm:text-xl font-semibold">
+                إحترام القانون
+                <br className="sm:hidden" />
+              </span>{" "}
               والتمسك الكامل بالأخلاق السامية لمهنة المحاماة. <br />●{" "}
-              <span className="text-xl font-semibold">النزاهة والشفافية</span>{" "}
+              <span className="text-lg sm:text-xl font-semibold">
+                النزاهة والشفافية
+                <br className="sm:hidden" />
+              </span>{" "}
               فـي كـل اجراءات العمل ومــع جميع العــملاء.{" "}
             </p>
           </div>

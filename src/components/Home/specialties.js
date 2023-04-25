@@ -8,7 +8,7 @@ const Specialties = () => {
   return (
     <section
       id="specialties"
-      className="px-3 sm:px-0 py-12 sm:py-20 text-main-color-dark"
+      className="px-3 sm:px-0 py-12 sm:py-20 text-main-dark"
     >
       <div>
         <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 text-main-dark font-bold">
@@ -23,7 +23,7 @@ const Specialties = () => {
           <Personalcard
             color="#121B39"
             variant="Bulk"
-            className="w-12 h-12 sm:w-24 sm:h-24"
+            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
           <h4>الأحوال الشخصية</h4>
         </div>
@@ -32,7 +32,7 @@ const Specialties = () => {
           <ArchiveTick
             color="#121B39"
             variant="Bulk"
-            className="w-12 h-12 sm:w-24 sm:h-24"
+            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
           <h4>التركات والوصايا وتوثيقها</h4>
         </div>
@@ -40,7 +40,7 @@ const Specialties = () => {
           <People
             color="#121B39"
             variant="Bulk"
-            className="w-12 h-12 sm:w-24 sm:h-24"
+            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
           <h4>المنازعات العمالية</h4>
         </div>
@@ -48,7 +48,7 @@ const Specialties = () => {
           <Buildings
             color="#121B39"
             variant="Bulk"
-            className="w-12 h-12 sm:w-24 sm:h-24"
+            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
           <h4>القضايا العمالية والعقارية والتجارية</h4>
         </div>
@@ -56,7 +56,7 @@ const Specialties = () => {
           <LikeDislike
             color="#121B39"
             variant="Bulk"
-            className="w-12 h-12 sm:w-24 sm:h-24"
+            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
           <h4>منازعات التنفيذ</h4>
         </div>
@@ -64,7 +64,7 @@ const Specialties = () => {
           <Briefcase
             color="#121B39"
             variant="Bulk"
-            className="w-12 h-12 sm:w-24 sm:h-24"
+            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
           <h4>تأسيس الشركات</h4>
         </div>

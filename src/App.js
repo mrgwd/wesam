@@ -6,6 +6,7 @@ import Services from "./components/Home/services";
 import Specialties from "./components/Home/specialties";
 import Order from "./components/Home/order";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Home/contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Specialties />
       <Order />
+      <Contact />
       <Footer />
     </div>
   );
