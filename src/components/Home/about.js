@@ -1,5 +1,7 @@
 import about from "../../assets/images/aboutUs.png";
 const About = () => {
+  //let aboutOffsetTop = document.getElementById("about").offsetTop;
+  //console.log(aboutOffsetTop);
   return (
     <section
       id="about"

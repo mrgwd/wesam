@@ -1,9 +1,11 @@
-import { Personalcard } from "iconsax-react";
-import { ArchiveTick } from "iconsax-react";
-import { People } from "iconsax-react";
-import { Buildings } from "iconsax-react";
-import { LikeDislike } from "iconsax-react";
-import { Briefcase } from "iconsax-react";
+import {
+  Personalcard,
+  ArchiveTick,
+  People,
+  Buildings,
+  LikeDislike,
+  Briefcase,
+} from "iconsax-react";
 const Specialties = () => {
   return (
     <section

@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGavel } from "@fortawesome/free-solid-svg-icons";
-import { faBuildingColumns } from "@fortawesome/free-solid-svg-icons";
-import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import { faHandshakeSimple } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGavel,
+  faBuildingColumns,
+  faPenToSquare,
+  faBriefcase,
+  faHandshakeSimple,
+} from "@fortawesome/free-solid-svg-icons";
 
 //import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 const Services = () => {
