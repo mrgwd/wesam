@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wesam/static/css/main.1e5092a6.css",
-    "main.js": "/wesam/static/js/main.3d163238.js",
+    "main.css": "/wesam/static/css/main.744e5839.css",
+    "main.js": "/wesam/static/js/main.362b6ee7.js",
     "static/media/contact.jpg": "/wesam/static/media/contact.2b7dbb37418d199dec24.jpg",
     "static/media/aboutUs.png": "/wesam/static/media/aboutUs.c2c98bc70a96e8fd16a7.png",
     "static/media/background.jpg": "/wesam/static/media/background.2112047a3229fe2db63e.jpg",
     "static/media/logo.png": "/wesam/static/media/logo.734f1849a72ad003aa52.png",
     "index.html": "/wesam/index.html",
-    "main.1e5092a6.css.map": "/wesam/static/css/main.1e5092a6.css.map",
-    "main.3d163238.js.map": "/wesam/static/js/main.3d163238.js.map"
+    "main.744e5839.css.map": "/wesam/static/css/main.744e5839.css.map",
+    "main.362b6ee7.js.map": "/wesam/static/js/main.362b6ee7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e5092a6.css",
-    "static/js/main.3d163238.js"
+    "static/css/main.744e5839.css",
+    "static/js/main.362b6ee7.js"
   ]
 }
