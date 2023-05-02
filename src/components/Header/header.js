@@ -1,22 +1,26 @@
 import logo from "../../assets/images/logo.png";
 
-const Navbar = () => {
+const Navbar = ({ menu }) => {
   setTimeout(() => {
     const navBarCon = document.getElementById("navCon");
     const wesamLogo = document.getElementById("wesam-logo");
     window.onscroll = () => {
       if (window.scrollY >= 100) {
         navBarCon.className =
-          "w-full bg-main-dark fixed left-1/2 -translate-x-1/2 top-0 z-20 shadow-lg";
+          "w-full bg-main-dark fixed left-1/2 -translate-x-1/2 top-0 z-30 shadow-lg";
         wesamLogo.className = "w-16 md:w-24 cursor-pointer transition-all";
       } else {
-        navBarCon.className = "w-full fixed left-1/2 -translate-x-1/2 top-0";
+        navBarCon.className =
+          "w-full fixed left-1/2 -translate-x-1/2 top-0 z-30";
         wesamLogo.className = "w-20 md:w-32 cursor-pointer transition-all";
       }
     };
   }, 10);
   return (
-    <div id="navCon" className="w-full fixed left-1/2 -translate-x-1/2 top-0">
+    <div
+      id="navCon"
+      className="w-full fixed left-1/2 -translate-x-1/2 top-0 z-30"
+    >
       <div
         id="nav"
         className="px-3 sm:px-0 container w-screen mx-auto flex justify-between items-center top-0"
@@ -45,6 +49,12 @@ const Navbar = () => {
         <div
           className="sm:hidden flex flex-col justify-between gap-1 child:bg-main-color-light child:w-8 child:h-1 child:rounded-full"
           data-menu-btn
+          onClick={() => {
+            menu.classList.toggle("hidden");
+            setTimeout(() => {
+              menu.classList.toggle("opacity-0");
+            }, 10);
+          }}
         >
           <span></span>
           <span></span>

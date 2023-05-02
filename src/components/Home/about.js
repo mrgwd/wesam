@@ -38,13 +38,13 @@ const About = () => {
             <p className="text-sm sm:text-[15.5px]">
               ●{" "}
               <span className="text-lg sm:text-xl font-semibold">
-                الصدق والامانة
+                إحترام القانون
                 <br className="sm:hidden" />
               </span>{" "}
               والحرص الدائم علـى الامتثــال والالــتزام القانوني.
               <br />●{" "}
               <span className="text-lg sm:text-xl font-semibold">
-                إحترام القانون
+                الصدق والامانة
                 <br className="sm:hidden" />
               </span>{" "}
               والتمسك الكامل بالأخلاق السامية لمهنة المحاماة. <br />●{" "}

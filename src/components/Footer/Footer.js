@@ -17,8 +17,8 @@ const Footer = () => {
       </div>
       <div>
         <p className="max-w-3xl text-gray-500">
-          شارع الأمير سلطان - مبنى رومان سـنتر مقابـل دوار التاريخ - الدور الاول
-          مكتب 111. <br />
+          شارع الأمير سلطان - مبنى رومان سـنتر
+          <br />
           <span dir="ltr">+20122368944 ● alwesam.s.d@gmail.com</span>
         </p>
       </div>
