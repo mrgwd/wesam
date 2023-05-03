@@ -16,14 +16,17 @@ const Home = () => {
     >
       <div className="md:mt-44 xl:mt-56 text-white">
         <p className="text-xl sm:text-3xl 2xl:text-4xl mb-3 sm:mb-6">
-          الوســــــام
+          شركة الوســــــام
         </p>
         <h1 className="font-semibold text-3xl sm:text-5xl xl:text-6xl 2xl:text-7xl !leading-tight ">
           للمحاماه والإستشـارات <br /> القانونية والتحكيم
         </h1>
-        <button className="px-6 py-2 md:px-8 md:py-3 text-xl bg-main-color rounded-full mt-6 sm:mt-8 hover:bg-[#AF8149] transition-all">
+        <a
+          className="inline-block px-6 py-2 md:px-8 md:py-3 text-xl bg-main-color rounded-full mt-6 sm:mt-8 hover:bg-[#AF8149] transition-all"
+          href="#about"
+        >
           إقرأ المزيد
-        </button>
+        </a>
       </div>
     </main>
   );

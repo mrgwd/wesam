@@ -43,9 +43,12 @@ const Navbar = ({ menu }) => {
             </li>
           </ul>
         </div>
-        <button className="hidden sm:block px-6 py-2 rounded-full bg-main-color hover:bg-[#AF8149] transition-all text-white">
+        <a
+          className="hidden sm:block px-6 py-2 rounded-full bg-main-color hover:bg-[#AF8149] transition-all text-white"
+          href="#order"
+        >
           إحجز الآن
-        </button>
+        </a>
         <div
           className="sm:hidden flex flex-col justify-between gap-1 child:bg-main-color-light child:w-8 child:h-1 child:rounded-full"
           data-menu-btn

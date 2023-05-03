@@ -1,13 +1,34 @@
+import { useEffect } from "react";
 import about from "../../assets/images/aboutUs.png";
 const About = () => {
-  //let aboutOffsetTop = document.getElementById("about").offsetTop;
-  //console.log(aboutOffsetTop);
+  useEffect(() => {
+    let [aboutHeading, aboutImage, aboutDetails] = [
+      document.getElementById("about-heading"),
+      document.getElementById("about-image"),
+      document.getElementById("about-details"),
+    ];
+    function handleScroll() {
+      window.scrollY > aboutHeading.offsetTop - 900 &&
+        aboutHeading.classList.remove("opacity-0", "mt-28");
+      // eslint-disable-next-line no-unused-expressions
+      window.scrollY > aboutHeading.offsetTop - 600 &&
+        (aboutImage.classList.remove("sm:opacity-0", "sm:mr-16"),
+        aboutDetails.classList.remove("sm:opacity-0", "sm:ml-16"));
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <section
       id="about"
       className="container mx-auto px-3 sm:px-0 py-10 sm:py-16  flex flex-col items-center rounded-b-3xl sm:rounded-b-none"
     >
-      <div>
+      <div
+        id="about-heading"
+        className="mt-28 opacity-0 transition-all duration-1000"
+      >
         <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 text-main-dark font-bold">
           من نحن؟
         </h2>
@@ -26,11 +47,16 @@ const About = () => {
         dir="ltr"
       >
         <img
-          className="w-80 lg:w-[32rem] rounnded-2xl"
+          id="about-image"
+          className="w-80 lg:w-[32rem] rounnded-2xl sm:opacity-0 sm:mr-16 transition-all duration-1000"
           src={about}
           alt="about us"
         />
-        <div dir="rtl">
+        <div
+          id="about-details"
+          className="sm:opacity-0 sm:ml-16 transition-all duration-1000"
+          dir="rtl"
+        >
           <div className="mb-6">
             <h3 className="font-bold text-2xl lg:text-3xl text-main-color-light">
               قـيمنـا

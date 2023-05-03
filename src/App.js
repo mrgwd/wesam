@@ -15,6 +15,18 @@ function App() {
   const getMenu = (sideMenu) => {
     setMenu(sideMenu);
   };
+  // useEffect(() => {
+  //   function handleScroll() {
+  //     // This function will be called every time the user scrolls
+  //     console.log("User scrolled");
+  //     // Perform any actions you want to happen on scroll here
+  //   }
+  //   window.addEventListener("scroll", handleScroll);
+  //   // Remove the event listener when the component unmounts
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
   return (
     <div className="App  scroll-smooth" dir="rtl">
       <Navbar menu={menu} />

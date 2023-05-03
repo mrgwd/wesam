@@ -1,4 +1,5 @@
 import { Send } from "iconsax-react";
+import { useEffect } from "react";
 export const Form = () => {
   return (
     <form
@@ -103,23 +104,36 @@ export const Form = () => {
 };
 
 const Order = () => {
+  useEffect(() => {
+    let orderHeading = document.getElementById("order-heading");
+    function handleScroll() {
+      window.scrollY > orderHeading.offsetTop - 900 &&
+        orderHeading.classList.remove("opacity-0", "mt-28");
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <section
       id="order"
       className="px-3 sm:px-0 py-12 sm:py-20 bg-gray-200 text-main-color-dark"
     >
       <div className="container mx-auto flex flex-col items-center">
-        <div>
+        <div
+          id="order-heading"
+          className="transition-all duration-1000 opacity-0 mt-28"
+        >
           <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 font-bold">
             أطلب خدمة
           </h2>
           <p className="max-w-3xl text-gray-500">
-            شارع الأمير سلطان - مبنى رومان سـنتر مقابـل دوار التاريخ - الدور
-            الاول مكتب 111. <br />
-            <span dir="ltr">+20122368944 ● alwesam.s.d@gmail.com</span>
+            شارع الأمير سلطان - مبنى رومن سـنتر <br />
+            <span dir="ltr">+20122368944 ● Info@alwissamlaw.com</span>
           </p>
         </div>
-        <Form />
+        <Form id="order-form" />
       </div>
     </section>
   );

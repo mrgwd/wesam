@@ -13,13 +13,15 @@ const Footer = () => {
     >
       <div>
         <img src={logo} alt="Wesam Logo" className="w-32" />
-        <p className="text-xl sm:text-3xl mb-3 sm:mb-6">الوســــــام</p>
+        <p className="text-xl sm:text-3xl mb-3 sm:mb-6 text-[#907856]">
+          الوســــــام
+        </p>
       </div>
       <div>
         <p className="max-w-3xl text-gray-500">
-          شارع الأمير سلطان - مبنى رومان سـنتر
+          شارع الأمير سلطان - مبنى رومن سـنتر
           <br />
-          <span dir="ltr">+20122368944 ● alwesam.s.d@gmail.com</span>
+          <span dir="ltr">+20122368944 ● Info@alwissamlaw.com</span>
         </p>
       </div>
       <div className="child:w-10 child:h-10 text-center child:leading-[44px] child:bg-main-color child:rounded-full flex gap-8">
@@ -34,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>
+        <p className="text-main-color-light/75 font-semibold">
           Created by{" "}
           <a
             href="https://athr.company"
