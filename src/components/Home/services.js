@@ -52,9 +52,9 @@ const Services = () => {
                 icon={faGavel}
               />
             </div>
-            <h4 className="font-semibold text-xl">
+            <h3 className="font-semibold text-xl">
               الاستشارات القانونية والشرعية والنظامية
-            </h4>
+            </h3>
             <p>
               دارسة كافة الوقائع والحالات القانونية والقوانين الحاكمة لها ومن ثم
               ابداء الاراء القانونية والشرعية حولها
@@ -67,9 +67,9 @@ const Services = () => {
                 icon={faBuildingColumns}
               />
             </div>
-            <h4 className="font-semibold text-xl">
+            <h3 className="font-semibold text-xl">
               التقاضي والترافع والتمثيل القضائي
-            </h4>
+            </h3>
             <p>
               تمثيل كافة عملاء الشركة بمختلف أشكالهم القانونية في تسوية النزاعات
               الناشئة لديهم
@@ -82,9 +82,9 @@ const Services = () => {
                 icon={faPenToSquare}
               />
             </div>
-            <h4 className="font-semibold text-xl">
+            <h3 className="font-semibold text-xl">
               صياغة ومراجعة العقود والاتفاقيات
-            </h4>
+            </h3>
             <p>
               اعداد وصياغة جميع العقود التجارية المحلية والدولية باللغة العربية
               والانجليزية، وعلى أساس علمي وقانوني سليم
@@ -97,7 +97,7 @@ const Services = () => {
                 icon={faBriefcase}
               />
             </div>
-            <h4 className="font-semibold text-xl">الشركــات</h4>
+            <h3 className="font-semibold text-xl">الشركــات</h3>
             <p>
               تقديم النصح والمشورة فيما يتعلق بتحديد الشكل المناسب من أنواع
               الشركات من حيث التأسيس والمتابعة لدى الجهات المختصة والحصول على
@@ -111,9 +111,9 @@ const Services = () => {
                 icon={faHandshakeSimple}
               />
             </div>
-            <h4 className="font-semibold text-xl">
+            <h3 className="font-semibold text-xl">
               قسم الوساطة والصلح والتحكيم
-            </h4>
+            </h3>
             <p>
               تقديم كافة الخدمات المتعلقة بالطرق البديلة لفض النزاعات والخلافات
               وصياغة ومراجعة اتفاقيات التحكيم وتمثيل الأطراف في غرف التحكيم

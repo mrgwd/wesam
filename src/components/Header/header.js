@@ -8,7 +8,8 @@ const Navbar = ({ menu }) => {
       if (window.scrollY >= 100) {
         navBarCon.className =
           "w-full bg-main-dark fixed left-1/2 -translate-x-1/2 top-0 z-30 shadow-lg";
-        wesamLogo.className = "w-16 md:w-24 cursor-pointer transition-all";
+        wesamLogo.className =
+          "w-16 h-auto aspect-auto md:w-24 cursor-pointer transition-all";
       } else {
         navBarCon.className =
           "w-full fixed left-1/2 -translate-x-1/2 top-0 z-30";
@@ -28,9 +29,10 @@ const Navbar = ({ menu }) => {
         <div className="flex gap-8 lg:gap-12 items-center">
           <img
             id="wesam-logo"
-            className="w-20 md:w-32 cursor-pointer transition-all"
+            className="w-20 h-auto aspect-auto md:w-32 cursor-pointer transition-all"
             src={logo}
             alt="Wesam Logo"
+            loading="lazy"
           />
           <ul>
             <li className="hidden sm:flex gap-3 md:gap-8 text-white child-hover:text-main-color-light child:transition-all">

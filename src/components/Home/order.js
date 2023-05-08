@@ -76,14 +76,14 @@ export const Form = () => {
         <div className="relative z-0 w-full group">
           <textarea
             rows="12"
-            name="subject"
-            id="subject"
+            name="details"
+            id="details"
             className="block py-1 pt-6 px-2 w-full text-sm text-main-color bg-white rounded-md appearance-none focus:outline-none focus:ring-0 rounded-bl-[2rem] sm:rounded-bl-[2.5rem] resize-none peer"
             placeholder=" "
             required
           ></textarea>
           <label
-            htmlFor="subject"
+            htmlFor="details"
             className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-2.5 scale-75 top-3 right-3 origiin-[0] peer-focus:right-3 peer-focus:text-main-color-light peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
           >
             التفاصيل ...
@@ -91,6 +91,7 @@ export const Form = () => {
           <button
             type="submit"
             className="bg-main-dark rounded-full p-3 sm:p-4 absolute bottom-3 left-3 transition duration-300 hover:bg-main-color  hover:rotate-[180deg]"
+            aria-label="Submit order"
           >
             <Send
               variant="Bold"

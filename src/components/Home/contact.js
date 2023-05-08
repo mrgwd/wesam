@@ -37,7 +37,7 @@ const Contact = () => {
       </div>
       <div
         id="contact-details"
-        className="w-full rounded-3xl mt-12 pt-36 pb-6 sm:pb-12 sm:pt-44 bg-[url(../images/contact.jpg)] bg-center bg-cover flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 child:cursor-pointer child:transition-all child-hover:scale-105  transition-all duration-1000 opacity-0 !mt-28"
+        className="w-full rounded-3xl mt-12 pt-36 pb-6 sm:pb-12 sm:pt-44 bg-[url(../images/contact.webp)] bg-center bg-cover flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 child:cursor-pointer child:transition-all child-hover:scale-105  transition-all duration-1000 opacity-0 !mt-28"
       >
         <div className="bg-main-dark w-4/5 p-2 rounded-2xl sm:w-52 sm:h-52 relative sm:overflow-hidden">
           <p className="absolute left-12 top-1/2 -translate-y-1/2 bottom-2 text-xl sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-0 sm:top-auto sm:bottom-6 text-green-600/75 font-extrabold">

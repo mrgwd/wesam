@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import about from "../../assets/images/aboutUs.png";
+import about from "../../assets/images/aboutUs.webp";
 const About = () => {
   useEffect(() => {
     let [aboutHeading, aboutImage, aboutDetails] = [
@@ -43,14 +43,15 @@ const About = () => {
         </p>
       </div>
       <div
-        className="mt-12 md:mt-16 flex flex-col md:flex-row md:justify-between items-center gap-10 md:gap-28 lg:gap-36 child:text-start"
+        className="mt-12 md:mt-16 flex flex-col md:flex-row md:justify-between items-center gap-10 md:gap-16 lg:gap-36 child:text-start"
         dir="ltr"
       >
         <img
           id="about-image"
-          className="w-80 lg:w-[32rem] rounnded-2xl sm:opacity-0 sm:mr-16 transition-all duration-1000"
+          className="w-80 h-auto aspect-square lg:w-[30rem] rounnded-2xl sm:opacity-0 sm:mr-16 transition-all duration-1000"
           src={about}
           alt="about us"
+          loading="lazy"
         />
         <div
           id="about-details"

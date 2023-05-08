@@ -1,18 +1,10 @@
-// //import Navbar from "../Header/header";
-// // import React from "react";
-
-// import Navbar from "../Header/header";
-// const homeOffsetB = document.getElementById("home").clientHeight;
-// // const MyContext = React.createContext();
-// export const test = () => {
-//   return <Navbar data={homeOffsetB} />;
-// };
+import "./home.css";
 
 const Home = () => {
   return (
     <main
       id="home"
-      className="bg-[url(../images/background.jpg)] h-auto md:h-screen w-screen bg-cover bg-center py-52 sm:py-28 flex flex-col items-center"
+      className="bg-[url(../images/background.webp)] h-auto md:h-screen w-screen bg-cover bg-center py-52 sm:py-28 flex flex-col items-center"
     >
       <div className="md:mt-44 xl:mt-56 text-white">
         <p className="text-xl sm:text-3xl 2xl:text-4xl mb-3 sm:mb-6">

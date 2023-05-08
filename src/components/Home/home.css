@@ -1,0 +1,63 @@
+#home {
+  animation: homeScale 2s 1 ease-in-out forwards;
+}
+@media (max-width: 639px) {
+  @keyframes homeScale {
+    from {
+      background-size: 275%;
+    }
+    to {
+      background-size: 285%;
+    }
+  }
+}
+@media (min-width: 640px) {
+  @keyframes homeScale {
+    from {
+      background-size: 130%;
+    }
+    to {
+      background-size: 135%;
+    }
+  }
+}
+@media (min-width: 768px) {
+  @keyframes homeScale {
+    from {
+      background-size: 200%;
+    }
+    to {
+      background-size: 205%;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  @keyframes homeScale {
+    from {
+      background-size: 150%;
+    }
+    to {
+      background-size: 155%;
+    }
+  }
+}
+@media (min-width: 1280px) {
+  @keyframes homeScale {
+    from {
+      background-size: 120%;
+    }
+    to {
+      background-size: 125%;
+    }
+  }
+}
+@media (min-width: 1536px) {
+  @keyframes homeScale {
+    from {
+      background-size: 100%;
+    }
+    to {
+      background-size: 105%;
+    }
+  }
+}

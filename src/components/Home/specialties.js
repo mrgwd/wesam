@@ -50,7 +50,7 @@ const Specialties = () => {
             variant="Bulk"
             className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
-          <h4>الأحوال الشخصية</h4>
+          <h3>الأحوال الشخصية</h3>
         </div>
 
         <div>
@@ -59,7 +59,7 @@ const Specialties = () => {
             variant="Bulk"
             className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
-          <h4>التركات والوصايا وتوثيقها</h4>
+          <h3>التركات والوصايا وتوثيقها</h3>
         </div>
         <div>
           <People
@@ -67,7 +67,7 @@ const Specialties = () => {
             variant="Bulk"
             className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
-          <h4>المنازعات العمالية</h4>
+          <h3>المنازعات العمالية</h3>
         </div>
         <div>
           <Buildings
@@ -75,7 +75,7 @@ const Specialties = () => {
             variant="Bulk"
             className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
-          <h4>القضايا العمالية والعقارية والتجارية</h4>
+          <h3>القضايا العمالية والعقارية والتجارية</h3>
         </div>
         <div>
           <LikeDislike
@@ -83,7 +83,7 @@ const Specialties = () => {
             variant="Bulk"
             className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
-          <h4>منازعات التنفيذ</h4>
+          <h3>منازعات التنفيذ</h3>
         </div>
         <div>
           <Briefcase
@@ -91,7 +91,7 @@ const Specialties = () => {
             variant="Bulk"
             className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
           />
-          <h4>تأسيس الشركات</h4>
+          <h3>تأسيس الشركات</h3>
         </div>
       </div>
     </section>

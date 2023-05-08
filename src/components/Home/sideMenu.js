@@ -47,19 +47,19 @@ const SideMenu = ({ getMenu }) => {
         <div>
           <div>
             <div className="child:w-10 child:h-10 text-center child:leading-[44px] child:bg-main-color child:rounded-full flex justify-center gap-8 text-white/60 mb-20">
-              <div>
+              <a href="https://www.facebook.com" target="_blance">
                 <FontAwesomeIcon icon={faFacebook} />
-              </div>
-              <div>
+              </a>
+              <a href="https://www.twitter.com" target="_blance">
                 <FontAwesomeIcon icon={faTwitter} />
-              </div>
-              <div>
+              </a>
+              <a href="https://www.instagram.com" target="_blance">
                 <FontAwesomeIcon icon={faInstagram} />
-              </div>
+              </a>
             </div>
           </div>
           <div>
-            <p className="text-white/70">
+            <p className="text-white/60">
               Created by{" "}
               <a
                 href="https://athr.company"

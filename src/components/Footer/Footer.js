@@ -24,16 +24,28 @@ const Footer = () => {
           <span dir="ltr">+20122368944 ● Info@alwissamlaw.com</span>
         </p>
       </div>
-      <div className="child:w-10 child:h-10 text-center child:leading-[44px] child:bg-main-color child:rounded-full flex gap-8">
-        <div>
+      <div className="child:w-10 child:h-10 text-center child:leading-[44px] child:transition-all child:bg-main-color child-hover:bg-[#2b3e7a] child-hover:text-[#5b77d2] child:rounded-full flex gap-8">
+        <a
+          href="https://www.facebook.com"
+          target="_blance"
+          aria-label="Visit our Facebook page"
+        >
           <FontAwesomeIcon icon={faFacebook} />
-        </div>
-        <div>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blance"
+          aria-label="Follow us on Twitter"
+        >
           <FontAwesomeIcon icon={faTwitter} />
-        </div>
-        <div>
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blance"
+          aria-label="Follow us on Instagram"
+        >
           <FontAwesomeIcon icon={faInstagram} />
-        </div>
+        </a>
       </div>
       <div>
         <p className="text-main-color-light/75 font-semibold">
