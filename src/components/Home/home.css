@@ -4,10 +4,10 @@
 @media (max-width: 639px) {
   @keyframes homeScale {
     from {
-      background-size: 275%;
+      background-size: 125%;
     }
     to {
-      background-size: 285%;
+      background-size: 135%;
     }
   }
 }
