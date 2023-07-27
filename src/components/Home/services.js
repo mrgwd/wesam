@@ -37,9 +37,6 @@ const Services = () => {
           <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 font-bold">
             خدماتنـا
           </h2>
-          <p className="max-w-3xl text-gray-500">
-            لدينا العديد من الأقسام التي تخدم عملائنا بمهنية واحترافية عالية.
-          </p>
         </div>
         <div
           id="sevrices-details"

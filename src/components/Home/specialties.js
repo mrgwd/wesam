@@ -1,11 +1,3 @@
-import {
-  Personalcard,
-  ArchiveTick,
-  People,
-  Buildings,
-  LikeDislike,
-  Briefcase,
-} from "iconsax-react";
 import { useEffect } from "react";
 const Specialties = () => {
   useEffect(() => {
@@ -42,57 +34,59 @@ const Specialties = () => {
       </div>
       <div
         id="specialties-details"
-        className="grid grid-cols-2 lg:grid-cols-[repeat(3,minmax(0,300px))] justify-center gap-y-16 sm:gap-x-16 child:text-main-dark child:text-xl child:md:text-2xl child:font-bold mt-12 child:flex child:flex-col child:items-center child:gap-2 transition-all duration-1000 opacity-0 !mt-28"
+        className="[&>*:nth-child(odd)]:text-main-dark [&>*:nth-child(even)]:text-main-color child:text-md child:md:text-2xl mt-12 transition-all duration-1000 opacity-0 !mt-28 child:rounded-full child:py-1 child:m-1 child:px-4 xl:child:px-6 [&>*:nth-child(odd)]:bg-main-dark/30 [&>*:nth-child(even)]:bg-main-color/30 child:inline-block child:cursor-default child-hover:scale-105 child:transition-all"
       >
-        <div>
-          <Personalcard
-            color="#121B39"
-            variant="Bulk"
-            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
-          />
-          <h3>الأحوال الشخصية</h3>
+        <div>تأسيس الشركات</div>
+        <div>صياغة عقود</div>
+        <div>تقسيم تركات</div>
+        <div>تحصيل ديون</div>
+        <div>استخراج حجج إستحكام</div>
+        <div>تسجيل براءة إختراع</div>
+        <div>توثيق وكالات وعقود</div>
+        <div>تمثيل قانوني وترافع</div>
+        <div>إعداد سياسات ودراسات تشريعية</div>
+        <div>إعداد مذكرات قانونية</div>
+        <div>تسجيل علامات تجارية</div>
+        <div>تحقيق</div>
+        <div>المنشئات التجارية وريادة الأعمال</div>
+        <div>الوكالات التجارية</div>
+        <div>العلاقات العمالية</div>
+        <div>الطاقة والتعدين</div>
+        <div>الخدمات المالية</div>
+        <div>تسوية المنازعات</div>
+        <div>القضايا الإدارية والجنائية</div>
+        <div>حقوق الملكية الفكرية</div>
+        <div>الإستثمارات الصناعية</div>
+        <div>العقود الحكومية</div>
+        <div>النقل البحري</div>
+        <div>تراخيص التصدير وإجراءات الإستيراد</div>
+        <div>والجمارك وقوانين المقاطعة</div>
+        <div>الأحوال الشخصية</div>
+        <div>الترجمة القانونية</div>
+        <div>أوراق تجارية</div>
+        <div className="text-sm md:text-2xl">
+          قانون المعلومات وخصوصية البيانات والأمن السيبراني
         </div>
-
-        <div>
-          <ArchiveTick
-            color="#121B39"
-            variant="Bulk"
-            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
-          />
-          <h3>التركات والوصايا وتوثيقها</h3>
-        </div>
-        <div>
-          <People
-            color="#121B39"
-            variant="Bulk"
-            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
-          />
-          <h3>المنازعات العمالية</h3>
-        </div>
-        <div>
-          <Buildings
-            color="#121B39"
-            variant="Bulk"
-            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
-          />
-          <h3>القضايا العمالية والعقارية والتجارية</h3>
-        </div>
-        <div>
-          <LikeDislike
-            color="#121B39"
-            variant="Bulk"
-            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
-          />
-          <h3>منازعات التنفيذ</h3>
-        </div>
-        <div>
-          <Briefcase
-            color="#121B39"
-            variant="Bulk"
-            className="w-12 h-12 sm:w-20 sm:h-20 lg:w-24 xl:h-24"
-          />
-          <h3>تأسيس الشركات</h3>
-        </div>
+        <div>أسهم وأوراق مالية</div>
+        <div>مكافحة الإحتكار والمنافسة</div>
+        <div>الترفيه والرياضة والإعلام</div>
+        <div>الخدمات المصرفية</div>
+        <div>قانون الإتصالات</div>
+        <div>المصرفية الإسلامية</div>
+        <div>إعادة الهيكلة والإعسار والتدريبات</div>
+        <div>المشتقات</div>
+        <div>الدعاوى التجارية المعقدة</div>
+        <div>حوكمة الشركات</div>
+        <div>حقوق الدائنين والتقاضي بالإفلاس</div>
+        <div>الإستعانة بمصادر خارجية</div>
+        <div>الشركات الناشئة</div>
+        <div>البيئة والإراضي والموارد</div>
+        <div>صناديق الإستثمار</div>
+        <div>التنظيم المالي</div>
+        <div>الزكاة والضرائب</div>
+        <div>العقارات</div>
+        <div>تغطية التأمين</div>
+        <div>الرعاية الصحية</div>
       </div>
     </section>
   );
