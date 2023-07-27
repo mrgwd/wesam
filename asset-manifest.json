@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/wesam/static/css/main.ce1e588a.css",
-    "main.js": "/wesam/static/js/main.6ae95399.js",
+    "main.css": "/wesam/static/css/main.b46613c2.css",
+    "main.js": "/wesam/static/js/main.009b908a.js",
     "static/media/mobilebackground.webp": "/wesam/static/media/mobilebackground.c5669cb5b93b706bdfb3.webp",
     "static/media/background.webp": "/wesam/static/media/background.3b8cf5380b2a23bce106.webp",
     "static/media/contact.webp": "/wesam/static/media/contact.8ee589e62c2212509675.webp",
     "static/media/logo.png": "/wesam/static/media/logo.734f1849a72ad003aa52.png",
     "static/media/aboutUs.webp": "/wesam/static/media/aboutUs.bc2bd822a68a3c73028b.webp",
     "index.html": "/wesam/index.html",
-    "main.ce1e588a.css.map": "/wesam/static/css/main.ce1e588a.css.map",
-    "main.6ae95399.js.map": "/wesam/static/js/main.6ae95399.js.map"
+    "main.b46613c2.css.map": "/wesam/static/css/main.b46613c2.css.map",
+    "main.009b908a.js.map": "/wesam/static/js/main.009b908a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce1e588a.css",
-    "static/js/main.6ae95399.js"
+    "static/css/main.b46613c2.css",
+    "static/js/main.009b908a.js"
   ]
 }
