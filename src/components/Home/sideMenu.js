@@ -3,6 +3,7 @@ import {
   faFacebook,
   faTwitter,
   faInstagram,
+  faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 const SideMenu = ({ getMenu }) => {
@@ -47,14 +48,33 @@ const SideMenu = ({ getMenu }) => {
         <div>
           <div>
             <div className="child:w-10 child:h-10 text-center child:leading-[44px] child:bg-main-color child:rounded-full flex justify-center gap-8 text-white/60 mb-20">
-              <a href="https://www.facebook.com" target="_blance">
+              <a
+                href="https://www.instagram.com/alwessam_law/?igshid=MmIzYWVlNDQ5Yg=="
+                target="_blance"
+                aria-label="Follow us on Instagram"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61550520355768"
+                target="_blance"
+                aria-label="Visit our Facebook page"
+              >
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="https://www.twitter.com" target="_blance">
+              <a
+                href="https://twitter.com/alwessam_law"
+                target="_blance"
+                aria-label="Follow us on Twitter"
+              >
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
-              <a href="https://www.instagram.com" target="_blance">
-                <FontAwesomeIcon icon={faInstagram} />
+              <a
+                href="https://www.linkedin.com/in/alwessamlaw/?trk=public_profile-settings_edit-profile-content&originalSubdomain=sa"
+                target="_blance"
+                aria-label="Visit our Facebook page"
+              >
+                <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
             </div>
           </div>

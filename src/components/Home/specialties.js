@@ -34,7 +34,7 @@ const Specialties = () => {
       </div>
       <div
         id="specialties-details"
-        className="[&>*:nth-child(odd)]:text-main-dark [&>*:nth-child(even)]:text-main-color child:text-md child:md:text-2xl mt-12 transition-all duration-1000 opacity-0 !mt-28 child:rounded-full child:py-1 child:m-1 child:px-4 xl:child:px-6 [&>*:nth-child(odd)]:bg-main-dark/30 [&>*:nth-child(even)]:bg-main-color/30 child:inline-block child:cursor-default child-hover:scale-105 child:transition-all"
+        className="[&>*:nth-child(odd)]:text-main-dark [&>*:nth-child(even)]:text-main-color child:text-md child:md:text-2xl mt-12 transition-all duration-1000 opacity-0 !mt-28 child:rounded-full child:py-1 child:m-1 child:px-4 xl:child:px-6 [&>*:nth-child(odd)]:bg-main-dark/10 [&>*:nth-child(even)]:bg-main-color/10 child:inline-block child:cursor-default child-hover:scale-105 child:transition-all"
       >
         <div>تأسيس الشركات</div>
         <div>صياغة عقود</div>
@@ -44,7 +44,6 @@ const Specialties = () => {
         <div>تسجيل براءة إختراع</div>
         <div>توثيق وكالات وعقود</div>
         <div>تمثيل قانوني وترافع</div>
-        <div>إعداد سياسات ودراسات تشريعية</div>
         <div>إعداد مذكرات قانونية</div>
         <div>تسجيل علامات تجارية</div>
         <div>تحقيق</div>
@@ -64,7 +63,7 @@ const Specialties = () => {
         <div>الأحوال الشخصية</div>
         <div>الترجمة القانونية</div>
         <div>أوراق تجارية</div>
-        <div className="text-sm md:text-2xl">
+        <div class="text-sm md:text-2xl">
           قانون المعلومات وخصوصية البيانات والأمن السيبراني
         </div>
         <div>أسهم وأوراق مالية</div>
@@ -86,7 +85,30 @@ const Specialties = () => {
         <div>الزكاة والضرائب</div>
         <div>العقارات</div>
         <div>تغطية التأمين</div>
-        <div>الرعاية الصحية</div>
+        <div>الماليه العامه</div>
+        <div>الاعفاء الجمركية والضرائب</div>
+        <div>اعادة الهيكله والاعسار والتدريبات</div>
+        <div>المسئوليه المهنية</div>
+        <div>اعادة الهيكله والاعسار والتدريبات</div>
+        <div>التمويل المنظم</div>
+        <div>تحكيم منازعات</div>
+        <div>توثيق وكلات وعقود</div>
+        <div>معاملات التكنولوجيا</div>
+        <div>ضوابط التصدير</div>
+        <div>العقوبات الاقتصاديه والجمارك</div>
+        <div>الرعايه الصحية وعلوم الحياة</div>
+        <div>حقوق الملكية الخاصة</div>
+        <div>تمويل الاسهم الخاصه</div>
+        <div>المسئولية</div>
+        <div>المنتج</div>
+        <div>الدعاوي الاجماعيه والاجراءات</div>
+        <div>لفئة المستهلك</div>
+        <div>تطوير المشاريع والتمويل</div>
+        <div>قضايا التامين</div>
+        <div>قضايا لجنة المنازعات المصرفيه</div>
+        <div>قضايا الطيران المدني</div>
+        <div>التحكيم الدولي</div>
+        <div>ترجمة العقود</div>
       </div>
     </section>
   );

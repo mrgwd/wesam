@@ -1,9 +1,30 @@
 import { Send } from "iconsax-react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import emailjs from "@emailjs/browser";
 export const Form = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_9l6q56m",
+        "template_erpkp8j",
+        form.current,
+        "77O8kbQOLwR16rgyK"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <form
-      action=""
+      ref={form}
+      onSubmit={sendEmail}
       className="mt-6 sm:min-w-[28rem] lg:min-w-[36rem] xl:min-w-[44rem] sm:mx-20"
     >
       <div className="flex gap-2 mb-2">
@@ -26,14 +47,14 @@ export const Form = () => {
         <div className="relative z-0 w-full group">
           <input
             type="text"
-            name="second-name"
-            id="second-name"
+            name="last-name"
+            id="lasr-name"
             className="block py-1 pt-6 px-2 w-full text-sm text-main-color bg-white rounded-md appearance-none focus:outline-none focus:ring-0 peer"
             placeholder=" "
             required
           />
           <label
-            htmlFor="second-name"
+            htmlFor="last-name"
             className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-2.5 scale-75 top-3 right-3 origiin-[0] peer-focus:right-3 peer-focus:text-main-color-light peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
           >
             الإسم الأخير
@@ -76,7 +97,7 @@ export const Form = () => {
         <div className="relative z-0 w-full group">
           <textarea
             rows="12"
-            name="details"
+            name="message"
             id="details"
             className="block py-1 pt-6 px-2 w-full text-sm text-main-color bg-white rounded-md appearance-none focus:outline-none focus:ring-0 rounded-bl-[2rem] sm:rounded-bl-[2.5rem] resize-none peer"
             placeholder=" "
@@ -129,9 +150,8 @@ const Order = () => {
           <h2 className="text-3xl md:text-5xl mb-2 md:mb-6 font-bold">
             أطلب خدمة
           </h2>
-          <p className="max-w-3xl text-gray-500">
-            شارع الأمير سلطان - مبنى رومن سـنتر <br />
-            <span dir="ltr">+20122368944 ● Info@alwissamlaw.com</span>
+          <p className="max-w-3xl text-gray-500" dir="ltr">
+            +20122368944 ● Info@alwissamlaw.com
           </p>
         </div>
         <Form id="order-form" />
